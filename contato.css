@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header {
+    background-color: white;
+    padding: 13px 10px;
+    width: 100%;
+    border-bottom: #C94368;
+    border-bottom-style: solid;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    transition: 0.4s;
+}
+header ul {
+    display: flex;
+    align-items: center;
+
+}
+
+#logo-header {
+    color: #C94368;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 200px;
+    list-style: none;
+    font-style: italic;
+}
+.header-options {
+    font-size: 18px;
+    padding: 30px;    
+    margin-top: 10px;
+    list-style: none;
+    
+}
+.b {
+    margin-left: 150px;
+
+}
+.header-options:hover {
+    color: #C94368;
+
+}
+footer {
+    background-color: #C94368;
+    width: 100%;
+    height: 280px;
+    margin-top: 100px;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+#icons {
+    text-align: center;
+    
+}
+#fale {
+    margin-top: 40px;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+.footer-list {
+    
+    width: 80px;
+    height: 18x;
+    border-right-style: solid;
+    border-width: 1px;
+}
+#footer-list-produto {
+    margin-left: 10px;
+}
+footer h5 {
+    margin-top: 30px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #C94368;
+}
+#zap-zap {
+    height: 80px;
+    position: fixed;
+    position: fixed;
+    bottom: 30px;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    right: 30px;
+}
+
+#onde {
+    margin-top: 200px;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+}
+#onde h1 {
+    border-bottom-style: solid;
+    width: 600px;
+    border-width: 1px;
+    padding: 10px;
+}
+section {
+    margin-top: 80px;
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+}
+#indereço h2 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+#tel {
+    margin-top: 40px;
+}
+#indereço h1 {
+    color: #C94368;
+}
+#maps {
+    margin-left: 50px;
+}
