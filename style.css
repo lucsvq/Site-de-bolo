@@ -41,10 +41,7 @@ header ul {
     list-style: none;
     
 }
-.b {
-    margin-left: 150px;
 
-}
 .header-options:hover {
     color: #C94368;
 
@@ -165,7 +162,7 @@ header ul {
     width: 350px;
     height: 350px;
     margin-left: 350px;
-    margin-top: 80px;
+    margin-top: 30px;
     border-radius: 500px;
     animation: kkk 2s;
 }
@@ -216,7 +213,6 @@ footer {
     background-color: #C94368;
     width: 100%;
     height: 280px;
-    margin-top: 80px;
     text-align: center;
     overflow: hidden;
     color: white;
@@ -289,4 +285,87 @@ section {
 }
 section h1 {
     margin-left: 8px;
+}
+#header-links {
+    display: flex;
+    margin-left: 180px;
+}
+
+@media screen and (max-width: 412px)  {
+    header ul {
+        text-align: center; 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .b {
+        margin-left: 0;
+    }
+    #logo-header {
+        margin-left: 0;
+    }
+    .header-options {
+        padding: 0;
+        margin: 20px;
+        font-size: 15px;
+    }
+    #welcome {
+        margin-left: 0;
+        margin-top: 150px;
+        font-size: 40px;
+        text-align: center; 
+        display: flex;
+        justify-content: center;
+    }
+    #box-txt {
+        font-size: 37px;
+        margin-left: 10px;
+        width: 100%;
+  
+    }
+    #produtos {
+        display: flex;
+        flex-direction: column;
+    }
+    .caixa {
+        width: 100%px;
+    }
+    #header-links {
+        display: flex;
+        margin-left: 0;
+    }
+    #box2 {
+        margin-left: 0;
+        flex-direction: column;
+        margin-top: 0;
+        height: 700px;
+    }
+    #img-box2 {
+        margin-left: 52px;
+        width: 300px;
+        height: 300px;
+        text-align: center;
+    }
+    #desc-box2 {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 380px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    #txt-box2 {
+        margin: 0;
+    }
+    #title-exper {
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    .btn-box2 {
+        margin-left: 22%;
+    }
+    section {
+        display: none;
+    }
 }
