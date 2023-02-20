@@ -41,10 +41,7 @@ header ul {
     list-style: none;
 
 }
-.b {
-    margin-left: 180px;
 
-}
 .header-options:hover {
     color: #C94368;
 
@@ -53,10 +50,9 @@ footer {
     background-color: #C94368;
     width: 100%;
     height: 280px;
-    margin-top: 80px;
     text-align: center;
     overflow: hidden;
-    color: #ffffff;
+    color: white;
 }
 .icon {
     width: 40px;
@@ -188,4 +184,58 @@ section {
 }
 section h1 {
     margin-left: 8px;
+}
+#header-links {
+    display: flex;
+    margin-left: 180px;
+}
+
+@media screen and (max-width: 500px)  {
+    header ul {
+        text-align: center; 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .b {
+        margin-left: 0;
+    }
+    #logo-header {
+        margin-left: 0;
+    }
+    .header-options {
+        padding: 0;
+        margin: 10px;
+        font-size: 15px;
+    }
+    #header-links {
+        display: flex;
+        margin-left: 0;
+    }
+    #flex-list {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .doces {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    #titulo-doces {
+        margin-left: 0;
+        align-items: center;
+    }
+    #zap-fala {
+        display: none;
+    }
+    #doces-cat {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
 }

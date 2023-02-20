@@ -327,9 +327,12 @@ section h1 {
     #produtos {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
     }
     .caixa {
-        margin-left: 16%;
+        margin-left: 0;
     }
     #header-links {
         display: flex;
@@ -340,9 +343,13 @@ section h1 {
         flex-direction: column;
         margin-top: 0;
         height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     #img-box2 {
-        margin-left: 20%;
+        margin: 0;
         width: 300px;
         height: 300px;
         text-align: center;
@@ -351,7 +358,7 @@ section h1 {
         margin-left: 0;
         margin-top: 10px;
         width: 380px;
-        margin-left: 10%;
+        margin-left: 0;
         text-align: center;
     }
     #txt-box2 {
@@ -360,10 +367,11 @@ section h1 {
     #title-exper {
         margin: 0;
         margin-top: 20px;
-        margin-left: 27%;
+        text-align: center;
     }
     .btn-box2 {
-        margin-left: 28%;
+        margin-left: 22%;
+        text-align: center;
     }
     section {
         display: none;
