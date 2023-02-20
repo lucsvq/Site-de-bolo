@@ -291,7 +291,7 @@ section h1 {
     margin-left: 180px;
 }
 
-@media screen and (max-width: 426px)  {
+@media screen and (max-width: 500px)  {
     header ul {
         text-align: center; 
         display: flex;
