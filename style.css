@@ -329,7 +329,7 @@ section h1 {
         flex-direction: column;
     }
     .caixa {
-        margin-left: 9%;
+        margin-left: 16%;
     }
     #header-links {
         display: flex;
@@ -342,7 +342,7 @@ section h1 {
         height: 700px;
     }
     #img-box2 {
-        margin-left: 15%;
+        margin-left: 20%;
         width: 300px;
         height: 300px;
         text-align: center;
@@ -351,7 +351,7 @@ section h1 {
         margin-left: 0;
         margin-top: 10px;
         width: 380px;
-        margin-left: 20px;
+        margin-left: 10%;
         text-align: center;
     }
     #txt-box2 {
@@ -360,10 +360,10 @@ section h1 {
     #title-exper {
         margin: 0;
         margin-top: 20px;
-        margin-left: 23%;
+        margin-left: 27%;
     }
     .btn-box2 {
-        margin-left: 24%;
+        margin-left: 28%;
     }
     section {
         display: none;
