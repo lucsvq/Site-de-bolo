@@ -291,13 +291,13 @@ section h1 {
     margin-left: 180px;
 }
 
-@media screen and (max-width: 412px)  {
+@media screen and (max-width: 426px)  {
     header ul {
         text-align: center; 
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 100%;
+        
     }
     .b {
         margin-left: 0;
@@ -307,7 +307,7 @@ section h1 {
     }
     .header-options {
         padding: 0;
-        margin: 20px;
+        margin: 10px;
         font-size: 15px;
     }
     #welcome {
@@ -320,7 +320,7 @@ section h1 {
     }
     #box-txt {
         font-size: 37px;
-        margin-left: 10px;
+        margin-left: 5%;
         width: 100%;
   
     }
@@ -329,7 +329,7 @@ section h1 {
         flex-direction: column;
     }
     .caixa {
-        width: 100%px;
+        margin-left: 9%;
     }
     #header-links {
         display: flex;
@@ -342,7 +342,7 @@ section h1 {
         height: 700px;
     }
     #img-box2 {
-        margin-left: 52px;
+        margin-left: 15%;
         width: 300px;
         height: 300px;
         text-align: center;
@@ -360,10 +360,10 @@ section h1 {
     #title-exper {
         margin: 0;
         margin-top: 20px;
-        margin-left: 80px;
+        margin-left: 23%;
     }
     .btn-box2 {
-        margin-left: 22%;
+        margin-left: 24%;
     }
     section {
         display: none;
